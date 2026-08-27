@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header.cabecalho-principal {
+    background-color: #1b2a4a;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Estilo do símbolo do blog */
+.simbolo-blog {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%; /* Deixa a imagem redondinha tipo perfil/logo */
+    border: 3px solid white;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+header.cabecalho-principal h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+header.cabecalho-principal p {
+    font-size: 1rem;
+    color: #cbd5e1;
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post h2 {
+    color: #1b2a4a;
+    font-size: 1.4rem;
+    margin-top: 0;
+}
+
+.conteudo-post p {
+    color: #475569;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
